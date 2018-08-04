@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|AnyCPU'">
+		<DefineConstants>TRACE;DEBUG</DefineConstants>
+		<LangVersion>7.3</LangVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <DocumentationFile>bin\Debug\netcoreapp2.1\XmlDocPrivatizer.xml</DocumentationFile>
+	  <LangVersion>7.3</LangVersion>
+	  <DebugType>pdbonly</DebugType>
+	  <DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Remove="_ReSharper.Caches\**" />
+	  <EmbeddedResource Remove="_ReSharper.Caches\**" />
+	  <None Remove="_ReSharper.Caches\**" />
+	</ItemGroup>
+</Project>

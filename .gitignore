@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/bin/Debug
+/obj
+/Properties
+/_ReSharper.Caches/ReSharperPlatformVs1512_a6acbb04.XmlDocPrivatizer.00
+/XmlDocPrivatizer.sln.DotSettings.user

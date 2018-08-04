@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDocPrivatizer", "XmlDocPrivatizer.csproj", "{ECD6207E-2E17-49F2-9B86-4D681E66FCAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECD6207E-2E17-49F2-9B86-4D681E66FCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD6207E-2E17-49F2-9B86-4D681E66FCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD6207E-2E17-49F2-9B86-4D681E66FCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD6207E-2E17-49F2-9B86-4D681E66FCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4818BB52-0848-4970-9566-F0D17FE924C4}
+	EndGlobalSection
+EndGlobal
